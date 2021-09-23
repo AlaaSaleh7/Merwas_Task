@@ -1,0 +1,14 @@
+.Nav{
+    background-color: rgb(78, 210, 243);
+    height: 4rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar-brand{
+    margin-right: 60rem;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+svg{
+    size: 30rem;
+}

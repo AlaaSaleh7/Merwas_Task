@@ -61,6 +61,18 @@ function Home() {
                     alt="One-Night Midweek Kiwi Spotting Tour &amp; Stay for Two People on Kapiti Island incl. Ferry Transport, Introductory Talk, DOC Permits, Dinner, Breakfast &amp; Lunch - Three Options Available"
                     src={card.img}
                   />
+                   <div className="heart">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+              </div>
                   <div class="card-body">
                     <h4 class="card-title">{card.title}</h4>
                     <span class="card-text">{card.text}</span>
@@ -139,6 +151,15 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="input">
+      <div class="message">Get the best deals delivered direct to your inbox each day</div>
+      <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter email address" aria-label="" aria-describedby="button-addon2"/>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">subscribe</button>
+  </div>
+</div>
       </div>
     </div>
   );

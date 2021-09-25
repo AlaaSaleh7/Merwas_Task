@@ -95,3 +95,30 @@ font-size: 12px;
     padding: 15px 20px;
 
 }
+/* style input */
+.input{
+    border-bottom: 1px solid #dce3ed;
+    background-color: #fff;
+    align-items: center;
+    padding: 38px;
+    max-width: 940px;
+    margin: 25px auto 0;
+    flex-wrap: wrap;
+}
+.message{
+color: #01b2ee;
+font-size: 24px;
+font-weight: 700;
+padding-right: 10px;
+width: 100%;
+margin-bottom: 18px;
+}
+.btn{
+    color: white;
+    box-shadow: 0 0 8px 0 rgb(1 178 238 / 50%);
+    border: none;
+    background: #01b2ee;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+}

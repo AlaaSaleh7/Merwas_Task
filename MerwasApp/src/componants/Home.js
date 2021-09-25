@@ -30,8 +30,8 @@ function Home() {
       </p>
       <div className="container">
         <div class="row">
-          <div className="col-4">
-            <ul class="list-group">
+          <div className="col-3">
+            <ul class="list-group"style={{width:"18rem"}}>
               {list.map((elem) => {
                 return (
                   <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -43,7 +43,7 @@ function Home() {
             </ul>
           </div>
           <div className="col-4">
-            <div class="card" style={{ width: "30rem" }}>
+            <div class="card" style={{ width: "32rem"}}>
               <img
                 alt="One-Night Midweek Kiwi Spotting Tour &amp; Stay for Two People on Kapiti Island incl. Ferry Transport, Introductory Talk, DOC Permits, Dinner, Breakfast &amp; Lunch - Three Options Available"
                 src="//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg"
@@ -58,7 +58,7 @@ function Home() {
             </div>
           </div>
           <div className="col-4">
-            <div class="card" style={{ width: "30rem",marginLeft: "140px"}}>
+            <div class="card" style={{ width: "32rem",marginLeft: "10.5rem"}}>
               <img
                 alt="Mesh Reusable Face Mask with Dual Respirators - Option for Three or Five Masks"
                 src="//main-cdn.grabone.co.nz/goimage/495x343/32286725841603f9c33fc6257a8b797d24738be8.jpg"

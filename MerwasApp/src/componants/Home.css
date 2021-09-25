@@ -1,18 +1,65 @@
-#image{
-    margin-left: 4rem;
-    margin-top: 1rem;
-    cursor: pointer;}
-p{
-   text-align: center;
-   margin-top: 1rem;
+#image {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
-span{
-    font-weight: bold;
+p {
+  text-align: center;
+  margin-top: 1rem;
 }
-.container{
-    margin-left: 4rem;
-    margin-top: 1rem;
+span {
+  font-weight: bold;
 }
-.card{
-    margin-left: 20px;
+.container {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.card {
+  margin-left: 20px;
+}
+.bought {
+  font-size: 14px;
+  color: #92a2ad;
+  width: 30%;
+  flex: none;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: left;
+}
+h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 500;
+  color: #4f5864;
+  margin: 0;
+  line-height: 1.4;
+}
+#from {
+    display: block;
+  line-height: 1.2;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  color: #1eb3ec;
+}
+.card-text {
+  color: #1eb3ec;
+}
+.price {
+  line-height: 1.2;
+  text-align: right;
+  color: #1eb3ec;
+width: 100%;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+#twoPrice{
+    display: block;
+    text-align: right;
 }

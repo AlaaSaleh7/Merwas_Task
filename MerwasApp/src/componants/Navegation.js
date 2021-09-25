@@ -1,4 +1,5 @@
 import "./Navegation.css";
+
 function Nav() {
   return (
     <div>
@@ -216,7 +217,7 @@ function Nav() {
             <input
               class="form-control mr-sm-2"
               type="search"
-              placeholder="Search"
+              placeholder="&#xF002; Search GrabOne"
               aria-label="Search"
             />
           </form>

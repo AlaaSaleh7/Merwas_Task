@@ -45,9 +45,9 @@ function Home() {
             <ul class="list-group" style={{ width: "18rem" }}>
               {list.map((elem) => {
                 return (
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <li id="list" className="list-group-item d-flex justify-content-between align-items-center">
                     {elem.Name}
-                    <span class="badge badge-pill">{elem.quantity}</span>
+                    <span class="quantity">{elem.quantity}</span>
                   </li>
                 );
               })}
@@ -103,29 +103,38 @@ function Home() {
                 alt="Mesh Reusable Face Mask with Dual Respirators - Option for Three or Five Masks"
                 src="//main-cdn.grabone.co.nz/goimage/495x343/32286725841603f9c33fc6257a8b797d24738be8.jpg"
               />
+              <div className="heart">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+              </div>
               <div class="card-body">
                 <h5 class="card-title">Mesh Reusable Face Mask</h5>
                 <p class="card-text"></p>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <div id="twoPrice">
-                      <span
-                        style={{
-                          fontSize: "14px",
-                          textDecoration: "line-through",
-                          color: "#727986",
-                          textAlign: "right",
-                        }}
-                      >
-                       
-                      </span>
-                      <div>
-                      <span id="from">from</span>
-                    </div>
-                      <span className="price">$9</span>
-                    </div>
-                    <div class="bought">43 bought</div>
-                  
+                  <span
+                    style={{
+                      fontSize: "14px",
+                      textDecoration: "line-through",
+                      color: "#727986",
+                      textAlign: "right",
+                    }}
+                  ></span>
+                  <div>
+                    <span id="from">from</span>
+                  </div>
+                  <span className="price">$9</span>
+                </div>
+                <div class="bought">43 bought</div>
               </div>
             </div>
           </div>

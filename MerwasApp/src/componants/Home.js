@@ -17,6 +17,7 @@ function Home() {
   return (
     <div className="Home">
       <img
+        id="image"
         src="https://mediacdn.grabone.co.nz/asset/yDjZTGuDg1"
         class="desktopheaderimage"
         alt="Spring Collection"
@@ -29,7 +30,7 @@ function Home() {
       </p>
       <div className="container">
         <div class="row">
-          <div className="col">
+          <div className="col-4">
             <ul class="list-group">
               {list.map((elem) => {
                 return (
@@ -41,10 +42,36 @@ function Home() {
               })}
             </ul>
           </div>
-          <div className="col">
-            
+          <div className="col-4">
+            <div class="card" style={{ width: "30rem" }}>
+              <img
+                alt="One-Night Midweek Kiwi Spotting Tour &amp; Stay for Two People on Kapiti Island incl. Ferry Transport, Introductory Talk, DOC Permits, Dinner, Breakfast &amp; Lunch - Three Options Available"
+                src="//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col">3 of 3</div>
+          <div className="col-4">
+            <div class="card" style={{ width: "30rem",marginLeft: "140px"}}>
+              <img
+                alt="Mesh Reusable Face Mask with Dual Respirators - Option for Three or Five Masks"
+                src="//main-cdn.grabone.co.nz/goimage/495x343/32286725841603f9c33fc6257a8b797d24738be8.jpg"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

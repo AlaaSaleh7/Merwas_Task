@@ -1,4 +1,4 @@
-img{
+#image{
     margin-left: 4rem;
     margin-top: 1rem;
     cursor: pointer;}
@@ -8,4 +8,11 @@ p{
 }
 span{
     font-weight: bold;
+}
+.container{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.card{
+    margin-left: 20px;
 }

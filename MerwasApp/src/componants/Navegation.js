@@ -182,7 +182,7 @@ function Nav() {
                 </a>
               </div>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">
               What's New <span class="sr-only">(current)</span>
               </a>
@@ -193,23 +193,14 @@ function Nav() {
               </a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                 For You
+            <a class="nav-link" href="#">
+              For you
               </a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
+            <a class="nav-link" href="#">
                  Shop Products
+             
               </a>
             </li>
           </ul>

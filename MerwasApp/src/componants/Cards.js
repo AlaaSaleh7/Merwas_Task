@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Cards.css'
 export default function Cards() {
     let cards = [
         {
@@ -11,9 +11,42 @@ export default function Cards() {
           bought: 79,
           img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
         },
+        {
+            title: " Kiwi Spotting Tour &amp; Stay for Two People",
+            text: "Kapiti Island Nature Tours",
+            word: "Wellington",
+            oldPrice: "$790",
+            newPrice: " $499",
+            bought: 79,
+            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+          },
+          {
+            title: " Kiwi Spotting Tour &amp; Stay for Two People",
+            text: "Kapiti Island Nature Tours",
+            word: "Wellington",
+            oldPrice: "$790",
+            newPrice: " $499",
+            bought: 79,
+            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+          },
+          {
+            title: " Kiwi Spotting Tour &amp; Stay for Two People",
+            text: "Kapiti Island Nature Tours",
+            word: "Wellington",
+            oldPrice: "$790",
+            newPrice: " $499",
+            bought: 79,
+            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+          },
       ];
     return (
         <div>
+            <div className="headerBtn">
+            <span className="header">Featured Auckland deals</span>
+            <button type="button" class="btn btn">view more > </button>
+            </div>
+                <div className= "container">
+                    <div className="row">
              {cards.map((card) => {
             return (
               <div className="col-3">
@@ -68,7 +101,9 @@ export default function Cards() {
                 </div>
               </div>
             );
-          })}
+        })}
+        </div>
+        </div>
         </div>
     )
 }

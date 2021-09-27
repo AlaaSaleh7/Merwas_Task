@@ -1,5 +1,5 @@
 #image {
-  margin-left: 4rem;
+  margin-left: 2.5rem;
   margin-top: 1rem;
   cursor: pointer;
 }
@@ -11,7 +11,7 @@ span {
   font-weight: bold;
 }
 .container {
-  margin-left: 4rem;
+  margin-left: 1.5rem;
   margin-top: 1rem;
 }
 /* cards style */
@@ -104,7 +104,7 @@ font-size: 12px;
     max-width: 85rem;
     margin: 25px auto 0;
     flex-wrap: wrap;
-    margin-left: 4rem;
+    margin-left: 2.5rem;
     margin-top: 1rem;
 }
 .message{

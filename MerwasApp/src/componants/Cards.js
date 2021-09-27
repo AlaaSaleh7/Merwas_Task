@@ -3,40 +3,40 @@ import './Cards.css'
 export default function Cards() {
     let cards = [
         {
-          title: " Kiwi Spotting Tour &amp; Stay for Two People",
-          text: "Kapiti Island Nature Tours",
-          word: "Wellington",
-          oldPrice: "$790",
-          newPrice: " $499",
-          bought: 79,
-          img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+          title: "Dental Service Treatment",
+          text: "Guardian Dental Care Manukau",
+          word: "Auckland",
+          oldPrice: "$85",
+          newPrice: " $35",
+          bought: 3,
+          img: "//main-cdn.grabone.co.nz/goimage/325x225/7924c273fb12bb368da0b0f63090e2ec32d3d34d.jpg",
         },
         {
-            title: " Kiwi Spotting Tour &amp; Stay for Two People",
-            text: "Kapiti Island Nature Tours",
-            word: "Wellington",
-            oldPrice: "$790",
-            newPrice: " $499",
-            bought: 79,
-            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+            title: "Premium Hairdressing Packages",
+            text: "Vivo Hair and Skin Clinic",
+            word: "hhhh",
+            oldPrice: "$239",
+            newPrice: " $139",
+            bought: 148,
+            img: "//main-cdn.grabone.co.nz/goimage/325x225/7dfa01c8a9d3cfb631e0ee1c4e4860b326b5e9cf.jpg",
           },
           {
-            title: " Kiwi Spotting Tour &amp; Stay for Two People",
-            text: "Kapiti Island Nature Tours",
-            word: "Wellington",
-            oldPrice: "$790",
-            newPrice: " $499",
-            bought: 79,
-            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+            title: "Five-Pack Reusable Face Mask",
+            text: "eeee",
+            word: "rrrr",
+            oldPrice: "",
+            newPrice: " $15",
+            bought: 2258,
+            img: "//main-cdn.grabone.co.nz/goimage/325x225/8474177dfa86046a7e4ef34caecdfbd6ebbc5884.jpg",
           },
           {
-            title: " Kiwi Spotting Tour &amp; Stay for Two People",
-            text: "Kapiti Island Nature Tours",
-            word: "Wellington",
-            oldPrice: "$790",
-            newPrice: " $499",
-            bought: 79,
-            img: "//main-cdn.grabone.co.nz/goimage/495x343/8666386e76e761c42bf3bdef48a3007819885416.jpg",
+            title: "Gutter Cleaning Service",
+            text: "TNT Home Maintenance",
+            word: "Auckland",
+            oldPrice: "$220",
+            newPrice: " $89",
+            bought: 27,
+            img: "//main-cdn.grabone.co.nz/goimage/325x225/87c916e53543a9336913a0325427947725b8080f.jpg",
           },
       ];
     return (
@@ -49,8 +49,9 @@ export default function Cards() {
                     <div className="row">
              {cards.map((card) => {
             return (
+                <section>
               <div className="col-3">
-                <div class="card">
+                <div class="card" style={{width:"20rem"}}>
                   <img
                     alt="One-Night Midweek Kiwi Spotting Tour &amp; Stay for Two People on Kapiti Island incl. Ferry Transport, Introductory Talk, DOC Permits, Dinner, Breakfast &amp; Lunch - Three Options Available"
                     src={card.img}
@@ -100,6 +101,7 @@ export default function Cards() {
                   </div>
                 </div>
               </div>
+              </section>
             );
         })}
         </div>

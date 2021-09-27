@@ -35,7 +35,7 @@ function Home() {
       ></img>
       <p>
         {" "}
-        <span>Covid 19 Update:</span>Covid 19 Update: We encourage you to shop
+        <span>Covid 19 Update:</span> We encourage you to shop
         as normal for all your products but shipping delays may occur. Stay safe
         NZ!
       </p>

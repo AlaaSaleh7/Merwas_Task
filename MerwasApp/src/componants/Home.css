@@ -10,14 +10,14 @@ p {
 span {
   font-weight: bold;
 }
-.container {
+ .container {
   margin-left: 1.5rem;
   margin-top: 1rem;
 }
 /* cards style */
 .card {
   margin-left: 20px;
-}
+} 
 .bought {
   font-size: 14px;
   color: #92a2ad;

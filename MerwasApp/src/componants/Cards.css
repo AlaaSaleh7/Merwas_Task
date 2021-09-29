@@ -24,6 +24,11 @@ position: relative;
     margin-left: 15px;
     transition: all .15s ease-out;
 }
-section {
-    /* padding: 2.5%; */
+/* section {
+  text-align: center;
+  
+  } */
+  #rowCards{
+      margin-right: 2rem;
   }
+  

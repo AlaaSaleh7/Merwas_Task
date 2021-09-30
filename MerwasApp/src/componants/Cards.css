@@ -11,7 +11,7 @@ margin-left: 60px;
 margin-top: 15px;
 position: relative;
 }
-.btn{
+#buttonMore{
     border-radius: 5px;
     background-color: #01b2ee;
     color: #fff;

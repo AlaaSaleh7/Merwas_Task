@@ -79,7 +79,7 @@ export default function Cards() {
     <div>
       <div className="headerBtn">
         <span className="header">Featured Auckland deals</span>
-        <button type="button" class="btn btn">
+        <button type="button" class="btn btn" id="buttonMore">
           view more ..{" "}
         </button>
       </div>

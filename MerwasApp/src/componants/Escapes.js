@@ -13,6 +13,33 @@ export default function Escapes() {
       bought: 180,
       img: "//main-cdn.grabone.co.nz/goimage/325x225/a3c912cb9f2b24036e8d6315fd775511699a82b8.jpg",
     },
+    {
+        title: "4.5 Star Stay for Two in Wellington",
+        text: "Rydges Wellington Airport",
+        word: "Wellington City",
+        oldPrice: "$904",
+        newPrice: " $199",
+        bought: 17,
+        img: "//main-cdn.grabone.co.nz/goimage/325x225/6ee18302a653461ae2594bd2cf23140e43339615.jpg",
+      },
+      {
+        title: "Queenstown Four-Star Getaway for Two People",
+        text: "Queenstown Mystery 4 Star Hotel",
+        word: "Frankton",
+        oldPrice: "$244",
+        newPrice: " $129",
+        bought: 623,
+        img: "//main-cdn.grabone.co.nz/goimage/325x225/687d57cf67e1d56ca6aa5272034a0561d54dacb6.jpg",
+      },
+      {
+        title: "Central Queenstown Stay for Two People",
+        text: "Rydges Lakeland Resort Queenstown",
+        word: "Queenstown",
+        oldPrice: "$402",
+        newPrice: " $179",
+        bought: 80,
+        img: "//main-cdn.grabone.co.nz/goimage/325x225/837a005e256befcb4caa3074c588a1ee88a55b76.jpg",
+      },
   ];
 
     return (

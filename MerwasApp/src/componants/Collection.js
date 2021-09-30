@@ -3,16 +3,31 @@ import './collections.css'
 export default function Collection() {
   let collects = [
     {
-      title: "Inclusive Hanmer Springs Getaway",
-      text: "Hanmer Springs Hotel",
+      title: "Best of September",
+      text: "Multiple deals",
       img: "https://mediacdn.grabone.co.nz/asset/o4qZGwubHT",
     },
+    {
+        title: "Tasty Tipples",
+        text: "Multiple deals",
+        img: "https://mediacdn.grabone.co.nz/asset/YugEJF3paH",
+      },
+      {
+        title: "Free Shipping",
+        text: "Multiple deals",
+        img: "https://mediacdn.grabone.co.nz/asset/0sgXNkite4",
+      },
+      {
+        title: "$20 Treats",
+        text: "Multiple deals",
+        img: "https://mediacdn.grabone.co.nz/asset/Ko9mLzvNBi",
+      },
   ];
   return (
     <div>
       <div className="headerBtn">
         <span className="header">Collections</span>
-        <button type="button" class="btn btn">
+        <button type="button" class="btn btn" id="buttonMore">
           view more ..{" "}
         </button>
       </div>

@@ -11,3 +11,16 @@
         justify-content: center;
     
 }
+#buttonMore{
+    border-radius: 5px;
+    background-color: #01b2ee;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+    height: 37px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 15px;
+    transition: all .15s ease-out;
+}

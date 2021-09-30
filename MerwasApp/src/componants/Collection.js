@@ -1,5 +1,5 @@
 import React from "react";
-import './collections.css'
+import "./collections.css";
 export default function Collection() {
   let collects = [
     {
@@ -8,20 +8,20 @@ export default function Collection() {
       img: "https://mediacdn.grabone.co.nz/asset/o4qZGwubHT",
     },
     {
-        title: "Tasty Tipples",
-        text: "Multiple deals",
-        img: "https://mediacdn.grabone.co.nz/asset/YugEJF3paH",
-      },
-      {
-        title: "Free Shipping",
-        text: "Multiple deals",
-        img: "https://mediacdn.grabone.co.nz/asset/0sgXNkite4",
-      },
-      {
-        title: "$20 Treats",
-        text: "Multiple deals",
-        img: "https://mediacdn.grabone.co.nz/asset/Ko9mLzvNBi",
-      },
+      title: "Tasty Tipples",
+      text: "Multiple deals",
+      img: "https://mediacdn.grabone.co.nz/asset/YugEJF3paH",
+    },
+    {
+      title: "Free Shipping",
+      text: "Multiple deals",
+      img: "https://mediacdn.grabone.co.nz/asset/0sgXNkite4",
+    },
+    {
+      title: "$20 Treats",
+      text: "Multiple deals",
+      img: "https://mediacdn.grabone.co.nz/asset/Ko9mLzvNBi",
+    },
   ];
   return (
     <div>
@@ -42,7 +42,7 @@ export default function Collection() {
                   width: "22rem",
                   marginLeft: "2rem",
                   marginTop: "1rem",
-                  justifyContent: "center"
+                  justifyContent: "center",
                 }}
               >
                 <img src={card.img} class="card-img-top" alt="..." />
@@ -50,7 +50,9 @@ export default function Collection() {
                   <h6 class="card-title">{card.title}</h6>
                   <span class="card-text">{card.text}</span>
                   <br />
-                  <button type="button" class="btn btn" id="btnColl">view collection </button>
+                  <button type="button" class="btn btn" id="btnColl">
+                    view collection{" "}
+                  </button>
                 </div>
               </div>
             </div>

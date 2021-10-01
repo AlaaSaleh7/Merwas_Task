@@ -7,10 +7,7 @@ export default function Footer() {
         <div class="card w-100">
           <div class="card-body">
             <div class="row" id="footer-col">
-              <div
-                class="col-lg-3 col-md-4 col-sm-6"
-                style={{ backgroundColor: "red", border: "1px solid black" }}
-              >
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <h4 class="main-footer__heading">Follow us on</h4>
                 {/* the icons */}
                 <svg
@@ -58,18 +55,39 @@ export default function Footer() {
                   <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
                 <h4 class="main-footer__heading">Get app exclusive deals</h4>
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Download our App</button>
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Download our App
+                </button>
               </div>
-              <div
-                class="col-lg-3 col-md-4 col-sm-6"
-                style={{ backgroundColor: "green", border: "1px solid black" }}
-              >
-                One of four columns
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <h4 class="main-footer__heading">My Account</h4>
+                <a class="main-footer__link " href="/run-a-deal">
+                  My Account
+                </a>
+                <a
+                  class="main-footer__link "
+                  href="https://grabonemerchant.co.nz"
+                >
+                  My cart
+                </a>
+                <a
+                  class="main-footer__link "
+                  href="https://grabonemerchant.co.nz"
+                >
+                  My Coupons
+                </a>
+                <a
+                  class="main-footer__link "
+                  href="https://grabonemerchant.co.nz"
+                >
+                  FAQ
+                </a>
               </div>
-              <div
-                class="col-lg-3 col-md-4 col-sm-6"
-                style={{ backgroundColor: "yellow", border: "1px solid black" }}
-              >
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <h4 class="main-footer__heading">Merchants</h4>
                 <a class="main-footer__link " href="/run-a-deal">
                   Run a Deal
@@ -81,10 +99,7 @@ export default function Footer() {
                   Merchant Centre
                 </a>
               </div>
-              <div
-                class="col-lg-3 col-md-4 col-sm-6"
-                style={{ backgroundColor: "white", border: "1px solid black" }}
-              >
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <div>
                   <h5>Newsletter Signup</h5>
                   <span>
@@ -112,6 +127,17 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+          </div>
+          <div class="main-footer__copyright">
+            <a href="/privacy-policy" class="main-footer__copyright-content">
+              Privacy Policy
+            </a>
+            <span class="main-footer__copyright-content">
+              © 2021 GrabOne Limited
+            </span>
+            <a href="https://www.nzme.co.nz" target="_blank" rel="noopener">
+              <img src="//new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_long.d08e62aa63ff.png" />
+            </a>
           </div>
         </div>
       </div>

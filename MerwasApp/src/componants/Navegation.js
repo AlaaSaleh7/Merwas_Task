@@ -216,7 +216,7 @@ function Nav() {
               </a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0" style={{width:"35%"}}>
             <div class="input-icons">
             <i class="fa fa-search icon">
               </i>

@@ -36,7 +36,8 @@
 #input-field {
     width: 100%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    padding-left: 40px;
 }
 
 

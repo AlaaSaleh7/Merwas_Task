@@ -92,10 +92,10 @@ export default function Cards() {
               <div class="card" style={{ width: "22rem" ,marginLeft:"2rem",marginTop:"1rem"}}>
                 <img src={card.img} class="card-img-top" alt="..." />
                 <div className="heart">
-                      <svg
+                      <svg id="heart-circle"
                         xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
+                        width="22"
+                        height="22"
                         fill="currentColor"
                         class="bi bi-heart"
                         viewBox="0 0 16 16"

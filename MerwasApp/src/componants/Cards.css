@@ -31,4 +31,10 @@ position: relative;
   #rowCards{
       margin-right: 2rem;
   }
-  
+  #heart-circle{
+    top: 4px;
+    right: 4px;
+    opacity: 1;
+    position: absolute;
+    
+  }

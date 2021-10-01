@@ -64,10 +64,14 @@ export default function Escapes() {
               >
                 <img src={card.img} class="card-img-top" alt="..." />
                 <div className="heart">
-                  <svg
+                  <svg style={{
+  top: "4px",
+  right: "4px",
+  opacity: "1",
+  position: "absolute"}}
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="22"
+                    height="22"
                     fill="currentColor"
                     class="bi bi-heart"
                     viewBox="0 0 16 16"

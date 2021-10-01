@@ -1,11 +1,25 @@
-.footer{
+.footer-col{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding-left: 1.2rem;
-        padding-right: 1.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         padding-bottom: 20px;
         max-width: 1385px;
-        margin: auto;
     
 }
+.main-footer__link {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #4f5864;
+}
+.icons-social{
+    
+        width: 34px;
+        height: 34px;
+        margin-right: 10px;
+        fill: #4f5864;
+    
+}
+

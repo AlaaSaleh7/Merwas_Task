@@ -33,8 +33,8 @@ function Nav() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="27"
+                    height="27"
                     fill="currentColor"
                     class="bi bi-person"
                     viewBox="0 0 16 16"
@@ -63,8 +63,8 @@ function Nav() {
                 <a class="nav-link text-white" href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="27"
+                    height="27"
                     fill="currentColor"
                     class="bi bi-heart"
                     viewBox="0 0 16 16"
@@ -77,8 +77,8 @@ function Nav() {
                 <a class="nav-link text-white" href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="27"
+                    height="27"
                     fill="currentColor"
                     class="bi bi-cart"
                     viewBox="0 0 16 16"
@@ -99,8 +99,8 @@ function Nav() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="27"
+                    height="27"
                     fill="currentColor"
                     class="bi bi-person"
                     viewBox="0 0 16 16"
@@ -127,8 +127,8 @@ function Nav() {
                 <a class="nav-link text-white" href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="27"
+                    height="27"
                     fill="currentColor"
                     class="bi bi-envelope"
                     viewBox="0 0 16 16"

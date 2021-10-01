@@ -39,5 +39,7 @@
     text-align: left;
     padding-left: 40px;
 }
-
+.dropdown-menu a:hover{
+    color: #01b2ee;
+}
 

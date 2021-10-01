@@ -49,13 +49,34 @@ function Nav() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <a class="dropdown-item" href="#">
-                    Action
+                  Auckland
                   </a>
                   <a class="dropdown-item" href="#">
-                    Another action
+                    Waikato
                   </a>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                    Wellington
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Northland
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Manawata - Wanganui
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Tauranga
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Rotorua - Taupo
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Hawkes Bay
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Taranki
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Nelson - Marlborough
                   </a>
                 </div>
               </li>

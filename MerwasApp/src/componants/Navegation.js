@@ -113,13 +113,22 @@ function Nav() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <a class="dropdown-item" href="#">
-                    Action
+                    My Account
                   </a>
                   <a class="dropdown-item" href="#">
-                    Another action
+                    Gifts
                   </a>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                   Profile
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    My subscription
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    My purchase
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Login
                   </a>
                 </div>
               </li>
@@ -132,7 +141,6 @@ function Nav() {
                     fill="currentColor"
                     class="bi bi-envelope"
                     viewBox="0 0 16 16"
-                   
                   >
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
                   </svg>
@@ -143,6 +151,9 @@ function Nav() {
           </div>
         </nav>
       </div>
+
+
+      {/* second Nave */}
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button
           class="navbar-toggler"
@@ -206,15 +217,22 @@ function Nav() {
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
+            <div class="input-icons">
+            <i class="fa fa-search icon">
+              </i>
             <input
-              class="form-control mr-sm-2"
+              class="form-control mr-sm-2" id="input-field"
               type="search"
-              placeholder="&#xF002; Search GrabOne"
+              placeholder="Search GrabOne"
               aria-label="Search"
+              
             />
+            </div>
           </form>
         </div>
       </nav>
+
+      
     </div>
   );
 }

@@ -9,5 +9,34 @@
     font-weight: bolder;
     font-size: xx-large;
 }
+.dropdown-item{
+        color: #4f5864;
+        font-size: 15px;
+        transition: all .15s ease-out;
+    
+}
+
+/* put the icon inside input *_* */
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    color: #4f5864;
+    min-width: 50px;
+    text-align: center;
+}
+  
+#input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
 
 

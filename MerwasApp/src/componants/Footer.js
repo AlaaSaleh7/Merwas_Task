@@ -7,7 +7,10 @@ export default function Footer() {
         <div class="card w-100">
           <div class="card-body">
             <div class="row" id="footer-col">
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div
+                class="col-lg-3 col-md-4 col-sm-6"
+          
+              >
                 <h4 class="main-footer__heading">Follow us on</h4>
                 {/* the icons */}
                 <svg
@@ -63,7 +66,10 @@ export default function Footer() {
                   Download our App
                 </button>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div
+                class="col-lg-3 col-md-4 col-sm-6"
+        
+              >
                 <h4 class="main-footer__heading">My Account</h4>
                 <a class="main-footer__link " href="/run-a-deal">
                   My Account
@@ -87,7 +93,9 @@ export default function Footer() {
                   FAQ
                 </a>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div
+                class="col-lg-3 col-md-4 col-sm-6"
+              >
                 <h4 class="main-footer__heading">Merchants</h4>
                 <a class="main-footer__link " href="/run-a-deal">
                   Run a Deal
@@ -99,7 +107,9 @@ export default function Footer() {
                   Merchant Centre
                 </a>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div
+                class="col-lg-3 col-md-4 col-sm-6"
+              >
                 <div>
                   <h5>Newsletter Signup</h5>
                   <span>

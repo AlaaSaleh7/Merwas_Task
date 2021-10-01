@@ -56,7 +56,7 @@ function Home() {
           {cards.map((card) => {
             return (
               <div className="col-4">
-                <div class="card" style={{ width: "32rem" }}>
+                <div class="card" style={{ width: "32rem" , marginLeft: "20px"}}>
                   <img
                     alt="One-Night Midweek Kiwi Spotting Tour &amp; Stay for Two People on Kapiti Island incl. Ferry Transport, Introductory Talk, DOC Permits, Dinner, Breakfast &amp; Lunch - Three Options Available"
                     src={card.img}

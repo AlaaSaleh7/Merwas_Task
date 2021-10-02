@@ -24,10 +24,6 @@ position: relative;
     margin-left: 15px;
     transition: all .15s ease-out;
 }
-/* section {
-  text-align: center;
-  
-  } */
   #rowCards{
       margin-right: 2rem;
   }
@@ -38,3 +34,13 @@ position: relative;
     position: absolute;
     
   }
+  .card:hover .card-img-top{
+    opacity: 0.4;
+    background: #01b2ee;
+  }
+  
+  /* .text {
+    color:white;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */

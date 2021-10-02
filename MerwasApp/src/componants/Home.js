@@ -33,7 +33,7 @@ function Home() {
         class="desktopheaderimage"
         alt="Spring Collection"
       ></img>
-      <p>
+      <p className="sent">
         {" "}
         <span>Covid 19 Update:</span> We encourage you to shop
         as normal for all your products but shipping delays may occur. Stay safe

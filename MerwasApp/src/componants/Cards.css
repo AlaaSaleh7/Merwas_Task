@@ -34,13 +34,24 @@ position: relative;
     position: absolute;
     
   }
+  .text-hover {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    font-weight: bolder;
+    text-align: justify;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color:white;
+  }
   .card:hover .card-img-top{
     opacity: 0.4;
     background: #01b2ee;
   }
-  
-  /* .text {
-    color:white;
-    font-size: 16px;
-    padding: 16px 32px;
-  } */
+  .card:hover .text-hover {
+    opacity: 5;
+  }

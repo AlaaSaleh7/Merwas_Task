@@ -190,7 +190,7 @@ function Nav() {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
+            <li class="nav-item active">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -215,22 +215,22 @@ function Nav() {
                 </a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">
               What's New <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">
               Trending
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
             <a class="nav-link" href="#">
               For you
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
             <a class="nav-link" href="#">
                  Shop Products
              

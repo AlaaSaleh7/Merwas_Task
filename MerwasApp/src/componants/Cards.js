@@ -91,7 +91,7 @@ export default function Cards() {
               class="col-lg-3 col-md-4 col-sm-6" >
               <div class="card" style={{ width: "22rem" ,marginLeft:"2rem",marginTop:"1rem"}}>
                 <div class="card-img-top"><img src={card.img} class="card-img-top" alt="..."/></div>
-                {/* <p class="text">This image looks super neat.</p> */}
+                <p class="text-hover">This image looks super neat.</p>
                 <div className="heart">
                       <svg id="heart-circle"
                         xmlns="http://www.w3.org/2000/svg"

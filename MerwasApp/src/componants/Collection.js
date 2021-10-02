@@ -6,21 +6,25 @@ export default function Collection() {
       title: "Best of September",
       text: "Multiple deals",
       img: "https://mediacdn.grabone.co.nz/asset/o4qZGwubHT",
+      hoverText:"Best of September",
     },
     {
       title: "Tasty Tipples",
       text: "Multiple deals",
       img: "https://mediacdn.grabone.co.nz/asset/YugEJF3paH",
+      hoverText:"Best of September",
     },
     {
       title: "Free Shipping",
       text: "Multiple deals",
       img: "https://mediacdn.grabone.co.nz/asset/0sgXNkite4",
+      hoverText:"Best of September",
     },
     {
       title: "$20 Treats",
       text: "Multiple deals",
       img: "https://mediacdn.grabone.co.nz/asset/Ko9mLzvNBi",
+      hoverText:"Best of September",
     },
   ];
   return (
@@ -45,7 +49,8 @@ export default function Collection() {
                   justifyContent: "center",
                 }}
               >
-                <img src={card.img} class="card-img-top" alt="..." />
+                <div class="card-img-top"><img src={card.img} class="card-img-top" alt="..."/></div>
+                <p class="text-hover">{card.hoverText}</p>
                 <div class="card-body">
                   <h6 class="card-title">{card.title}</h6>
                   <span class="card-text">{card.text}</span>

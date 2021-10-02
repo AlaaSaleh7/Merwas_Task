@@ -47,14 +47,14 @@ export default function Store() {
 // another array to activity
 let activities = [
   {
-    title: "Twilight Fishing Charter what you want",
-    text: "Terrace Downs Resort",
+    title: "One Drink &amp; Doughnut",
+    text: "Epiphany Café St Lukes &amp; Manukau",
     word: "Christchurch",
-    oldPrice: "112",
-    newPrice: " $90",
-    bought: 83,
+    oldPrice: "",
+    newPrice: " $7.98",
+    bought: 567,
     hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
-    img: "//main-cdn.grabone.co.nz/goimage/325x225/d62cefa735c9224902aaacb1e0be2620b84a45b1.jpg",
+    img: "//main-cdn.grabone.co.nz/goimage/325x225/aa2fbeca232b63136d933b7fcd07757183cf09b6.jpg",
   },
   {
     title: " Alpaca Feeding incl. 10% off Food &amp; Drinks",

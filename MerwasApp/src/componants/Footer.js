@@ -107,7 +107,7 @@ export default function Footer() {
               <div class="col-lg-3 col-md-4 col-sm-6">
                 <div>
                   <h5>Newsletter Signup</h5>
-                  <span>
+                  <span className="sign">
                     Sign up for our daily emails and we'll send you all the best
                     deals, tailored for you.
                   </span>

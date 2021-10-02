@@ -5,6 +5,7 @@ import Cards from './componants/Cards';
 import Footer from './componants/Footer';
 import Collection from './componants/Collection';
 import Escapes from './componants/Escapes';
+import Store from './componants/Store';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Cards/>
       <Collection/>
       <Escapes/>
+      <Store/>
       <Footer/>
     </div>
     

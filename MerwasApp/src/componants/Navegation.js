@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div>
       <div className="Nav">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <a class="navbar-brand text-white" href="#">
             GrabOne
           </a>

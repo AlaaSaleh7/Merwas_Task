@@ -9,6 +9,7 @@ export default function Cards() {
       oldPrice: "$85",
       newPrice: " $35",
       bought: 3,
+      hoverText:"Blackhead Removal Rejuvenating Facial Treatment - Option for Two Treatments - Two Locations Available",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/7924c273fb12bb368da0b0f63090e2ec32d3d34d.jpg",
     },
     {
@@ -18,6 +19,7 @@ export default function Cards() {
       oldPrice: "$239",
       newPrice: " $139",
       bought: 148,
+      hoverText:" Hair Package incl. Wash, Style Cut, Conditioning, Head Massage &amp; Blow Wave or GHD - Option for Half Head of Foils or Retouch",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/7dfa01c8a9d3cfb631e0ee1c4e4860b326b5e9cf.jpg",
     },
     {
@@ -27,6 +29,7 @@ export default function Cards() {
       oldPrice: "",
       newPrice: " $15",
       bought: 2258,
+      hoverText:"Five-Pack Reusable Face Masks - Five Colours Available",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/8474177dfa86046a7e4ef34caecdfbd6ebbc5884.jpg",
     },
     {
@@ -36,6 +39,7 @@ export default function Cards() {
       oldPrice: "$220",
       newPrice: " $89",
       bought: 27,
+      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/87c916e53543a9336913a0325427947725b8080f.jpg",
     },
     {
@@ -45,6 +49,7 @@ export default function Cards() {
       oldPrice: "$420",
       newPrice: " $189",
       bought: 331,
+      hoverText:"Daily Breakfast, Late Checkout &amp; Free Parking - Family Options Available incl. 2-Course Dinner &amp; Welcome Drinks -...",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/d3162da6dbd501bca97675ef50ed44b23cffd04f.jpg",
     },
     {
@@ -54,6 +59,7 @@ export default function Cards() {
       oldPrice: "$99",
       newPrice: " $50",
       bought: 38,
+      hoverText:"Daily Breakfast, Late Checkout &amp; Free Parking - Family Options Available incl. 2-Course Dinner &amp; Welcome Drinks -...",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/34bad9d09aa77e6057a5c4ddd543cebb0abd54a2.jpg",
     },
     {
@@ -63,6 +69,7 @@ export default function Cards() {
       oldPrice: "$129",
       newPrice: " $108",
       bought: 203,
+      hoverText:"Daily Breakfast, Late Checkout &amp; Free Parking - Family Options Available incl. 2-Course Dinner &amp; Welcome Drinks -...",
       img: "//main-cdn.grabone.co.nz/goimage/495x343/6009bcbb5ab263035368b7d3fd11b64f45353e8b.jpg",
     },
     {
@@ -72,6 +79,7 @@ export default function Cards() {
       oldPrice: "$402",
       newPrice: " $179",
       bought: 80,
+      hoverText:"Daily Breakfast, Late Checkout &amp; Free Parking - Family Options Available incl. 2-Course Dinner &amp; Welcome Drinks -...",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/837a005e256befcb4caa3074c588a1ee88a55b76.jpg",
     },
   ];
@@ -91,7 +99,7 @@ export default function Cards() {
               class="col-lg-3 col-md-4 col-sm-6" >
               <div class="card" style={{ width: "22rem" ,marginLeft:"2rem",marginTop:"1rem"}}>
                 <div class="card-img-top"><img src={card.img} class="card-img-top" alt="..."/></div>
-                <p class="text-hover">This image looks super neat.</p>
+                <p class="text-hover">{card.hoverText}</p>
                 <div className="heart">
                       <svg id="heart-circle"
                         xmlns="http://www.w3.org/2000/svg"

@@ -34,15 +34,15 @@ position: relative;
     position: absolute;
     
   }
+  /* hover image  */
   .text-hover {
     transition: 0.5s ease;
     opacity: 0;
+    font-size: 20px;
     position: absolute;
-    font-weight: bolder;
     text-align: justify;
     text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

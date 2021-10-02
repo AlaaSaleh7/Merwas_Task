@@ -52,10 +52,10 @@ export default function Collection() {
                 <div class="card-img-top"><img src={card.img} class="card-img-top" alt="..."/></div>
                 <p class="text-hover">{card.hoverText}</p>
                 <div class="card-body">
-                  <h6 class="card-title">{card.title}</h6>
-                  <span class="card-text">{card.text}</span>
+                  <h6 class="card-title" style={{textAlign:"center"}}>{card.title}</h6>
+                  <span class="card-text" style={{marginLeft:"6.5rem"}}>{card.text}</span>
                   <br />
-                  <button type="button" class="btn btn" id="btnColl">
+                  <button type="button" class="btn btn" id="btnColl"  style={{marginLeft:"6rem"}}>
                     view collection{" "}
                   </button>
                 </div>

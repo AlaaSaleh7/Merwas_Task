@@ -10,7 +10,7 @@ export default function Escapes() {
       oldPrice: "$715",
       newPrice: " $356",
       bought: 180,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:"Daily Cooked Breakfast, Early Check-In &amp; Check-Out, &amp; 20% off Food &amp; Beverages - Options for Two or Three Nights",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/a3c912cb9f2b24036e8d6315fd775511699a82b8.jpg",
     },
     {
@@ -20,7 +20,7 @@ export default function Escapes() {
       oldPrice: "$904",
       newPrice: " $199",
       bought: 17,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:" 1-Night 4.5-Star Luxury Stay for Two in a Deluxe Room with Balcony incl. Drinks, Daily Cooked Breakfast",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/6ee18302a653461ae2594bd2cf23140e43339615.jpg",
     },
     {
@@ -30,7 +30,7 @@ export default function Escapes() {
       oldPrice: "$244",
       newPrice: " $129",
       bought: 623,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:"One-Night Queenstown Four-Star Getaway for Two in a Standard Room incl. Breakfast, 20% off Food &amp; Beverages, Late Checkout",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/687d57cf67e1d56ca6aa5272034a0561d54dacb6.jpg",
     },
     {

@@ -10,7 +10,7 @@ export default function Store() {
       oldPrice: "",
       newPrice: " $359",
       bought: 2,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:" Hoverboard with LED Lights - Three Colours Available",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/ed1615116597ae47171c2df81de9498a3336f96b.jpg",
     },
     {
@@ -20,7 +20,7 @@ export default function Store() {
       oldPrice: "",
       newPrice: " $35",
       bought: 17,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:" Premium Christmas Tree - Four Sizes Available with Delivery or Pick-Up Options - Auckland Only",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/2f7025214f7bf65cf0579af043feca719c0d2661.jpg",
     },
     {
@@ -30,7 +30,7 @@ export default function Store() {
       oldPrice: "$189",
       newPrice: " $79",
       bought: 62,
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:"Seven-Piece 600GSM Bamboo Cotton Bath Towel Set - Four Colours Available",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/80594bbb96977547d972f194916b358351936428.jpg",
     },
     {
@@ -40,7 +40,7 @@ export default function Store() {
       oldPrice: "$1.229",
       newPrice: " $700",
       bought: "",
-      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      hoverText:" Petersburg Seven Piece Dining Set",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/17458de328093a180359f601e41f516786a9190b.jpg",
     },
   ];

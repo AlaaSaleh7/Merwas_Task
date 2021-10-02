@@ -30,8 +30,8 @@ export default function Collection() {
   return (
     <div>
       <div className="headerBtn">
-        <span className="header">Collections</span>
-        <button type="button" class="btn btn" id="buttonMore">
+        <span className="header" style={{marginTop:"20px"}}>Collections</span>
+        <button type="button" class="btn btn" id="buttonMore" style={{marginTop:"20px"}}>
           view more ..{" "}
         </button>
       </div>

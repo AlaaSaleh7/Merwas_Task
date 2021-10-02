@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
 export default function Escapes() {
-
   // the rest of the cards
   let escapes = [
     {
@@ -11,40 +10,44 @@ export default function Escapes() {
       oldPrice: "$715",
       newPrice: " $356",
       bought: 180,
+      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
       img: "//main-cdn.grabone.co.nz/goimage/325x225/a3c912cb9f2b24036e8d6315fd775511699a82b8.jpg",
     },
     {
-        title: "4.5 Star Stay for Two in Wellington",
-        text: "Rydges Wellington Airport",
-        word: "Wellington City",
-        oldPrice: "$904",
-        newPrice: " $199",
-        bought: 17,
-        img: "//main-cdn.grabone.co.nz/goimage/325x225/6ee18302a653461ae2594bd2cf23140e43339615.jpg",
-      },
-      {
-        title: "Queenstown Four-Star Getaway for Two People",
-        text: "Queenstown Mystery 4 Star Hotel",
-        word: "Frankton",
-        oldPrice: "$244",
-        newPrice: " $129",
-        bought: 623,
-        img: "//main-cdn.grabone.co.nz/goimage/325x225/687d57cf67e1d56ca6aa5272034a0561d54dacb6.jpg",
-      },
-      {
-        title: "Central Queenstown Stay for Two People",
-        text: "Rydges Lakeland Resort Queenstown",
-        word: "Queenstown",
-        oldPrice: "$402",
-        newPrice: " $179",
-        bought: 80,
-        img: "//main-cdn.grabone.co.nz/goimage/325x225/837a005e256befcb4caa3074c588a1ee88a55b76.jpg",
-      },
+      title: "4.5 Star Stay for Two in Wellington",
+      text: "Rydges Wellington Airport",
+      word: "Wellington City",
+      oldPrice: "$904",
+      newPrice: " $199",
+      bought: 17,
+      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      img: "//main-cdn.grabone.co.nz/goimage/325x225/6ee18302a653461ae2594bd2cf23140e43339615.jpg",
+    },
+    {
+      title: "Queenstown Four-Star Getaway for Two People",
+      text: "Queenstown Mystery 4 Star Hotel",
+      word: "Frankton",
+      oldPrice: "$244",
+      newPrice: " $129",
+      bought: 623,
+      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      img: "//main-cdn.grabone.co.nz/goimage/325x225/687d57cf67e1d56ca6aa5272034a0561d54dacb6.jpg",
+    },
+    {
+      title: "Central Queenstown Stay for Two People",
+      text: "Rydges Lakeland Resort Queenstown",
+      word: "Queenstown",
+      oldPrice: "$402",
+      newPrice: " $179",
+      bought: 80,
+      hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+      img: "//main-cdn.grabone.co.nz/goimage/325x225/837a005e256befcb4caa3074c588a1ee88a55b76.jpg",
+    },
   ];
 
-    return (
-        <div>
-            <div className="headerBtn">
+  return (
+    <div>
+      <div className="headerBtn">
         <span className="header">Escapes</span>
         <button type="button" class="btn btn" id="buttonMore">
           view more ..{" "}
@@ -62,13 +65,16 @@ export default function Escapes() {
                   marginTop: "1rem",
                 }}
               >
-                <img src={card.img} class="card-img-top" alt="..." />
+                 <div class="card-img-top"><img src={card.img} class="card-img-top" alt="..."/></div>
+                <p class="text-hover">{card.hoverText}</p>
                 <div className="heart">
-                  <svg style={{
-  top: "4px",
-  right: "4px",
-  opacity: "1",
-  position: "absolute"}}
+                  <svg
+                    style={{
+                      top: "4px",
+                      right: "4px",
+                      opacity: "1",
+                      position: "absolute",
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
@@ -115,6 +121,6 @@ export default function Escapes() {
           );
         })}
       </div>
-        </div>
-    )
+    </div>
+  );
 }

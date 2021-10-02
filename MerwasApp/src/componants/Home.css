@@ -98,6 +98,18 @@ font-size: 12px;
     line-height: 1;
     transition: all .15s ease-out;
     padding: 15px 20px;
+    cursor: pointer;
+
+}
+#discover{
+
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #fff;
+    border-bottom: 1px solid #dce3ed;
+    border-radius: 3px 3px 0 0;
+    padding: 15px 20px;
+    color: #01b2ee;
 
 }
 /* style input */

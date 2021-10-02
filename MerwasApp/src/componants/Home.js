@@ -1,7 +1,6 @@
 import "./Home.css";
 function Home() {
   let list = [
-    { Name: "Discover" },
     { Name: "Featured Auckland deals", quantity: 133 },
     { Name: "Collections", quantity: 47 },
     { Name: "Escapes", quantity: 73 },
@@ -43,6 +42,7 @@ function Home() {
         <div class="row">
           <div className="col-3">
             <ul class="list-group" style={{ width: "18rem" }}>
+            <li id="list" className="list-group-item d-flex justify-content-between align-items-center" id="discover">Discover</li>
               {list.map((elem) => {
                 return (
                   <li id="list" className="list-group-item d-flex justify-content-between align-items-center">

@@ -53,7 +53,7 @@ let activities = [
     oldPrice: "",
     newPrice: " $7.98",
     bought: 567,
-    hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+    hoverText:" Any One Regular Frappe, Smoothie, Iced Tea or Iced Drink incl. a Doughnut - Two Locations Available",
     img: "//main-cdn.grabone.co.nz/goimage/325x225/aa2fbeca232b63136d933b7fcd07757183cf09b6.jpg",
   },
   {
@@ -63,7 +63,7 @@ let activities = [
     oldPrice: "",
     newPrice: " $38",
     bought: 22,
-    hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+    hoverText:"Two Breakfast Meals for Two People - Option for Lunch",
     img: "//main-cdn.grabone.co.nz/goimage/325x225/778d6c8ff16064e42f672161db4aab5c78cbd04c.jpg",
   },
   {
@@ -73,7 +73,7 @@ let activities = [
     oldPrice: "",
     newPrice: " $3.50",
     bought: 282,
-    hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+    hoverText:"One Coffee of Any Size - Options for Two or Four Coffees",
     img: "//main-cdn.grabone.co.nz/goimage/325x225/785a41696cfd9d0c8dfceed8eed432dd31952dba.jpg",
   },
   {
@@ -83,7 +83,7 @@ let activities = [
     oldPrice: "$16",
     newPrice: " $8",
     bought: 46,
-    hoverText:"Roof Inspection with Installation of a Gutter Guard on All Down Pipes - Options for up to 250sqm House. Operating in Alert Level 3 in Auckland",
+    hoverText:"Entry For Two Adults incl. 10% off Food &amp; Drinks at The Frog &amp; Lily Cafe - Options for One Child or Family of up to Five People",
     img: "//main-cdn.grabone.co.nz/goimage/325x225/b9482ac1bb587459e1ab17030ecd969184d50082.jpg",
   },
 ]; 
